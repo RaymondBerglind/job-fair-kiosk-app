@@ -1,0 +1,105 @@
+/* Font definitions */
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+}
+
+* {
+    font-family: 'helvetica', sans-serif;
+    font-size: 14px;
+}
+
+.logo {
+    margin: 15px;
+    clear: both;
+    float: left;
+    height: calc(81px / 2);
+    width: calc(261px / 2);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../Assets/stars.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2, h3, p, label {
+    color: #FFFFFF !important;
+    display: block;
+    clear: both;
+}
+
+p {
+    display: block;
+    font-size: 15px;
+}
+
+input {
+    padding: 0px 5px;
+}
+
+.numberInput {
+    width: 20px;
+}
+
+.cleared {
+    clear: both;
+}
+
+.form-group {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+label {
+    font-size: 14px;
+}
+
+.glyphicon {
+    font-size: 28px;
+}
+
+.glyphicon-ok {
+    color: #00F176;
+}
+
+.glyphicon-remove {
+    color: #F42272;
+}
+
+#confirmationMessage, input[type=submit] {
+    border: 3px solid rgb(52, 189, 192);
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#submit {
+    border-radius: 0;
+    clear: both;
+    border: 3px solid rgb(52, 189, 192);
+    font-size: 28px;
+    color: #FFF;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#landingHeadline {
+    margin-left: 15px;
+}
+
+#confirmationMessage {
+    font-size: 22px;
+    display: block;
+    float: left;
+    margin: 0;
+    width: 600px;
+}
